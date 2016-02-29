@@ -12,6 +12,8 @@ This is a stater-kit for [MJML](https://mjml.io/).
 
 ### Installation
 
+The only thing you need is NodeJS / NPM, then:
+
 `npm install`
 
 ### Build templates to HTML
