@@ -1,0 +1,35 @@
+{
+  "name": "mjml-starter-kit",
+  "version": "1.0.0",
+  "description": "MJML starter kit",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp",
+    "init-component": "mjml --init-component"
+  },
+  "author": {
+    "name": "Emmanuel Payet",
+    "email": "jakspinning@gmail.com",
+    "url": "https://github.com/epayet"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.3.0",
+    "mjml": "^1.2.1",
+    "react": "^0.14.7"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.5.2",
+    "browser-sync": "^2.11.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-mjml": "^1.0.0",
+    "gulp-nodemon": "^2.0.6",
+    "node-notifier": "latest"
+  }
+}
