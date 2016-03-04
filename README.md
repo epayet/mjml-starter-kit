@@ -5,7 +5,7 @@ This is a stater-kit for [MJML](https://mjml.io/).
 ## Features
 
 * Easy MJML files compilation (`npm run build` to compile every templates)
-* Easy dev mode with browser reloading and watch, even with custom components (`npm start`)
+* Easy dev mode with browser reloading and file watching, even with custom components (`npm start`)
 * Contains the examples of the [documentation](https://mjml.io/documentation)
 
 ## Usage
