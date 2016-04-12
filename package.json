@@ -30,6 +30,8 @@
     "gulp": "^3.9.1",
     "gulp-mjml": "^1.0.0",
     "gulp-nodemon": "^2.0.6",
-    "node-notifier": "latest"
+    "gulp-util": "^3.0.7",
+    "node-notifier": "latest",
+    "through2": "^2.0.1"
   }
 }
