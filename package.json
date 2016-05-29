@@ -16,7 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.3.0",
-    "mjml": "^1.2.1",
+    "mjml": "^2.1.1",
     "react": "^0.14.7"
   },
   "devDependencies": {

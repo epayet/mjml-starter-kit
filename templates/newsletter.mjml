@@ -1,4 +1,6 @@
+<mjml>
 <mj-body background-color="#E1E8ED">
+    <mj-container>
 
     <!-- Header -->
     <mj-section padding-bottom="0" background-color="white">
@@ -86,6 +88,7 @@
                     display="twitter facebook" />
         </mj-column>
     </mj-section>
+    </mj-container>
 </mj-body>
-
+</mjml>
 
