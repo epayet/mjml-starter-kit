@@ -1,4 +1,7 @@
+<mjml>
 <mj-body background-color="#e8e8e8">
+    <mj-container>
+
     <!-- Company Header -->
     <mj-section background-color="#f0f0f0">
         <mj-column>
@@ -101,5 +104,7 @@
             <mj-social display="facebook"/>
         </mj-column>
     </mj-section>
+    </mj-container>
 
 </mj-body>
+<mjml>

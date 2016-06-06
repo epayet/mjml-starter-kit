@@ -1,34 +1,27 @@
 
+import { MJMLElement } from 'mjml-core'
+import merge from 'lodash/merge'
+import MJMLText from 'mjml-text'
 import React, { Component } from 'react'
-import _ from 'lodash'
+
 import {
-  MJMLColumnElement,
-  elements,
-  registerElement,
+  registerMJElement,
 } from 'mjml'
 
-/*
- * Wrap your dependencies here.
- */
-const {
-  text: MjText,
-} = elements;
+const tagName = 'mj-title'
+const endingTag = false
+const columnElement = false
 
-const NAME = 'title'
-
-@MJMLColumnElement({
-  tagName: 'mj-title',
-  content: ' ',
-
-  /*
-   * These are your default css attributes
-   */
+//These are your default css attributes
+const defaultMJMLDefinition = {
   attributes: {
     'color': '#424242',
     'font-family': 'Helvetica',
     'margin-top': '10px'
   }
-})
+}
+
+@MJMLElement
 class Title extends Component {
 
   /*
@@ -37,7 +30,7 @@ class Title extends Component {
   getStyles() {
     const { mjAttribute, color } = this.props
 
-    return _.merge({}, this.constructor.baseStyles, {
+    return merge({}, this.constructor.baseStyles, {
       text: {
       /*
        * Get the color attribute
@@ -62,10 +55,17 @@ class Title extends Component {
 
     // TODO temporary fix, remove when mjml is updated
     return (
-      <span style={css.text}> {content} </span>
+      <MJMLText style={css}>
+        {content}
+      </MJMLText>
     )
   }
 }
 
-registerElement('title', Title)
+Title.tagName = tagName
+Title.defaultMJMLDefinition = defaultMJMLDefinition
+Title.endingTag = endingTag
+Title.columnElement = columnElement
+
+registerMJElement(Title)
 export default Title
