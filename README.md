@@ -1,7 +1,6 @@
 # MJML starter kit
 
 This is a stater-kit for [MJML](https://mjml.io/).
-This is currently for the v1 of MJML, v2 is a work in progress.
 
 ## Features
 
